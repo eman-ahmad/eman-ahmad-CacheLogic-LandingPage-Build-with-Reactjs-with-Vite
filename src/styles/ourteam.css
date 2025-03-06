@@ -1,0 +1,145 @@
+.ourteam{
+    padding: 2rem;
+}
+
+.team-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 750px;
+  }
+
+  .team-container img{
+    object-fit: cover;
+  }
+
+  
+  .main-card {
+    position: relative;
+    width: 65%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .team-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    width: 100%;
+    
+    
+  }
+  .overlay-container{
+    background: #9f9c9c51;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .ourteam h4,  .ourteam h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  .title {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+  
+  .ourteam .icons {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .side-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 35%;
+    justify-content: space-between;
+  }
+  
+  .small-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    flex: 1;
+  }
+  
+  .small-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .small-card .overlay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff41;
+  }
+  .small-card .overlay-container p{
+    margin-bottom: 0px;
+    margin-top: 1rem;
+  }
+  
+
+  @media (max-width: 768px) {
+    .ourteam{
+        padding: 1rem;
+    }
+
+    .team-container {
+        padding: 5px;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .main-card{
+        width: 100%;
+
+    }
+    .side-cards{
+        width: 100%;
+    }
+    .small-card {
+        border-radius: 15px !important;}
+        .main-card{
+            border-radius: 15px !important;
+            min-height: 500px;
+        }
+
+    .overlay{
+        padding: 1rem;
+    }
+    .main-card img{
+        object-position: top;
+        transform: scale(2.5);
+        object-fit: contain;
+    }
+
+  }

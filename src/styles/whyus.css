@@ -1,0 +1,126 @@
+/* Center the button */
+.whyus-btn {
+    background-color: #F5F5FF;
+    color: #414EC6;
+    border-radius: 25px;
+    padding: 8px 17px;
+    font-size: 0.7rem;
+    border: 1px solid #D7DEFE;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Heading & Paragraph */
+  .whyus-heading {
+    color: #101828;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: -3px !important;
+  }
+  
+  .whyus-para {
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.2;
+    text-align: center;
+    color:#475467;
+  }
+  
+  /* Image Styling */
+  .whyus-img {
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    border: 4px solid #3A6EB3 ;
+    box-shadow: 0 4px 8px rgba(58, 110, 179, 0.6);
+    background-size: cover;
+  }
+  
+  /* Cards Container */
+  .cards-container {
+    margin-top: 40px;
+  }
+  
+  /* Card Styling */
+  .whyus-card {
+    border: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .whyus-card .card-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .whyus-card img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .whyus-card .card-title{
+    color: #101828;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .whyus-card .card-text{
+    color:#475467;
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.2rem;
+  }
+
+  /* Learn More Button */
+  .learn-more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #414EC6;
+    text-decoration: none;
+  }
+  
+   .learn-more-btn img {
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .whyus-heading {
+      font-size: 20px;
+    }
+  
+    .whyus-para {
+      font-size: 14px;
+      padding: 0 15px;
+    }
+  
+    .whyus-image {
+      height: auto;
+    }
+  
+    .whyus-card {
+      padding: 15px;
+
+    }
+  }
+
+  @media (min-width:769px)
+  {
+    .whyus-card{
+      box-shadow: none !important;
+    }
+  }
+  

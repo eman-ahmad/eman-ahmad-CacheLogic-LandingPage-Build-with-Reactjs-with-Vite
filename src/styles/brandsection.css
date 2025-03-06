@@ -1,0 +1,43 @@
+/* App.css or your specific CSS file */
+
+
+  /* Tagline Text */
+  .tagline {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #475467
+  }
+  
+  /* Brand Logos */
+  .brand-content {
+    display: flex; /* Use flexbox to align logo and name horizontally */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Center both logo and name horizontally */
+    text-align: center;
+  }
+  
+  .brand-logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px; /* Space between logo and name */
+  }
+  
+  .brand-name {
+    font-size: 1.3rem;
+    color: #101828;
+    font-weight: 700;
+    margin-top: 13px;
+  }
+  
+  @media(max-width:992px){
+    .brand{
+      display: flex;
+      justify-content: center;
+    }
+    .brands-mobile{
+      justify-content: space-between !important;
+    }
+    .brand-content{
+      flex-direction: column;
+    }
+  }

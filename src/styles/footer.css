@@ -1,0 +1,264 @@
+/* Global Section Styles */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.footer-section {
+  background-color: #0c111d;
+  color: #ffffff;
+  padding: 50px 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.section-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+/* First Section */
+.first-section {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #182230;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.section-text {
+  font-size: 15px;
+  color: #ccc;
+}
+
+/* Adjust button position */
+.btn-container {
+  margin-top: -50px;
+}
+
+/* Buttons */
+.primary-btn {
+  background-color: #ffffff;
+  color: #0c111d;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.footer-btn-1:hover {
+  background-color: #ffffff;
+  color: #0c111d;
+}
+
+.secondary-btn {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.footer-btn-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.footer-btn-2:hover {
+  background-color: #673ab7;
+}
+
+/* Second Section */
+.second-section {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.second-section img {
+  margin-bottom: 21px;
+}
+
+.logo-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.company-description {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+  display: block;
+  max-width: 255px;
+  word-wrap: break-word;
+}
+
+.company-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d0d5dd;
+}
+
+.company-links {
+  font-size: 13px;
+  color: #eaecf0;
+  margin: 5px 0;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.copyright {
+  opacity: 50%;
+  color: #d9d9d980;
+  font: 12px;
+}
+/* Social icons on the right */
+.social-icons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -11px;
+}
+
+/* Social icons styling */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Third Section */
+.third-section {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #182230;
+}
+.footer-text {
+  font-size: 230px; /* Increase font size */
+  opacity: 0.2;
+  text-transform: lowercase;
+  width: 100%; /* Ensure full width */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  font-style: italic;
+}
+.mobile-show{
+  display: none;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-container {
+    padding: 0 20px;
+  }
+
+  .first-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 19px;
+    white-space: wrap;
+  }
+  
+  
+  .btn-container {
+    justify-content: center;
+    margin-top: 10px; /* Adjusted to fit better */
+  }
+
+  .second-section {
+    
+    text-align: center;
+    align-items: start;
+    
+  }
+  .footer-menu{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .company-description {
+    max-width: 100%; /* Ensure full width usage */
+  }
+
+  /* Move social media icons to the bottom */
+  .second-section {
+   
+    text-align: center;
+  }
+
+  .copyright-container{
+    margin-bottom: 20px;
+  }
+  .copyright-container,
+  .social-icons-container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-text {
+    font-size: 100px; /* Adjusted for better mobile fit */
+    white-space: normal; /* Allow wrapping if needed */
+    word-break: break-word;
+  }
+
+  .mobile-hide{
+    display: none;
+  }
+  .mobile-show{
+   display: block;
+   margin-top: 0px;
+  }
+  .mobile-show .social-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-right: 1rem;
+    align-items: end;
+    
+  }
+  .mobile-show .social-icons img{
+    margin-bottom: 16px;
+  }
+
+  
+  
+
+}
+
+@media (max-width: 480px) {
+  .footer-text {
+    font-size: 60px; /* Further reduced for very small screens */
+    margin-top: -3rem;
+  }
+
+  .social-icons {
+    gap: 10px; /* Adjusted gap for better spacing */
+  }
+}

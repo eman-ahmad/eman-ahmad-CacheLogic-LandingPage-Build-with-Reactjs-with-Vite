@@ -1,0 +1,30 @@
+.location{
+
+    padding: 2rem;
+
+}
+
+.location .map{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    
+}
+
+@media (max-width: 768px) {
+    .location{
+        padding: 1rem;
+    }
+
+.location .row{
+    gap: 2rem;
+}
+.location .map{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.location .map img{
+    transform: scale(1.3);
+}
+
+}

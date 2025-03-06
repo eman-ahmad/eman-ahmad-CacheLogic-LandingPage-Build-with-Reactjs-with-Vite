@@ -1,0 +1,104 @@
+/* Contact Form Section */
+.contact-container {
+    max-width: 1100px;
+  }
+  
+  /* Contact Us Button */
+  .contact-btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 500;
+  }
+  
+  /* Contact Info Cards */
+  .contact-card {
+    border: none;
+    text-align: left;
+    height: 170px;
+    width: 274px;
+  }
+ 
+  /* Icons inside cards */
+  .contact-card img {
+    margin-bottom: 10px;
+    width: 20px;
+  }
+  
+  /* Form Container */
+  .contact-form-card {
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #F9FAFB;
+  }
+  
+  .contactus-heading{
+    color:#101828;
+    font-weight: 600;
+  }
+
+  .contact-para{
+    color:#475467
+  }
+  /* Form Input Fields */
+  .contact-input {
+    border-radius: 8px;
+  }
+
+  a{
+    text-decoration:none;
+    color: #415EC6;
+    font-weight: 600;
+  }
+
+  a:hover{
+    color:#415EC6 ;
+  }
+
+  .custom-label{
+    color:#344054;
+    font-weight: 600;
+  }
+
+  .privacy{
+    color:#475467;
+  }
+  
+  /* Send Message Button */
+  .contact-submit-btn {
+    background-color:#1D315F;
+    border: 1px solid #1D315F;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+  }
+  
+  .contact-submit-btn:hover {
+    background-color:#673ab7;
+  }
+
+  .privacy input[type="checkbox"]:checked {
+    background-color: #673ab7;
+    border-color: #673ab7;
+  }
+  .contact-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+ 
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .contact-card {
+      margin-bottom: 15px;
+    }
+    .contact-row{
+      flex-direction: column-reverse;
+    }
+    
+  }
