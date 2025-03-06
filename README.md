@@ -17,13 +17,13 @@ Bootstrap
 Follow these steps to set up and run the project locally:
 
 1️⃣ Clone the Repository
-
 git clone [your-repository-link]
 cd cachelogic-landing-page
+
 2️⃣ Install Dependencies( react-bootstrap react-icons vite bootstrap )
-
 npm install
-3️⃣ Run the Project
 
+3️⃣ Run the Project
 npm run dev
+
 The project will start on http://localhost:5173/ (default Vite port).
