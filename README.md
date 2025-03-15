@@ -1,24 +1,25 @@
 CacheLogic Landing Page
-🚀 Project Overview
+**Project Overview**
 This is a modern and high-performing landing page built for the WEBATHON Competition - CacheLogic. The project is developed using React.js with Vite for fast performance and efficient development.
 
-🛠️ Tech Stack
+**Tech Stack**
 React.js (with Vite)
 React-Bootstrap
 React-Icons
 Bootstrap
-📌 Features
+
+** Features**
 ✅ Modern and responsive UI
 ✅ Fast performance with Vite
 ✅ Styled with Bootstrap and React-Bootstrap
 ✅ Icons from React-Icons
 
-📂 Installation & Setup
+**Installation & Setup**
 Follow these steps to set up and run the project locally:
 
 1️⃣ Clone the Repository
-git clone [your-repository-link]
-cd cachelogic-landing-page
+git clone (https://github.com/eman-ahmad/eman-ahmad-CacheLogic-LandingPage-Build-with-Reactjs-with-Vite.git)
+cd cache-logic-landing-page
 
 2️⃣ Install Dependencies( react-bootstrap react-icons vite bootstrap )
 npm install
